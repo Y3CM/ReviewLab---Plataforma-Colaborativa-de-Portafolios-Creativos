@@ -1,0 +1,114 @@
+/* ===== GLOBAL ===== */
+
+body {
+  background: #f5f6fa;
+  font-family: "Segoe UI", sans-serif;
+  color: antiquewhite;
+}
+footer {
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+h2 {
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+/* ===== HERO ===== */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, #0741ad, #2fdcb6);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  opacity: 0.9;
+}
+
+/* ===== BOTONES ===== */
+
+.btn-main {
+  background: linear-gradient(135deg, #6a00f4, #a100ff);
+  border: none;
+  border-radius: 30px;
+  font-weight: 500;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.btn-main:hover {
+  opacity: 0.9;
+}
+
+/* ===== CARDS ===== */
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card:first-of-type {
+  background: linear-gradient(135deg, #6a00f4, #a100ff);
+  color: white;
+}
+
+.card:first-of-type p {
+  opacity: 0.9;
+}
+
+.section {
+  padding: 80px 0;
+}
+/* ===== FORM ===== */
+.form-label {
+  font-weight: 500;
+  color: #555;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.form-control:focus {
+  border-color: #a100ff;
+  box-shadow: 0 0 0 2px rgba(161, 0, 255, 0.15);
+}
+/* ===== COMENTARIOS ===== */
+#commentsList .comment {
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-left: 4px solid #a100ff;
+}
+
+#commentsList strong {
+  color: #6a00f4;
+}
+
+#commentsList small {
+  color: #999;
+}
