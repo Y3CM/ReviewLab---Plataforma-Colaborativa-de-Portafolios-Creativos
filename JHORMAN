@@ -1,0 +1,47 @@
+ReviewLab---Plataforma-Colaborativa-de-Portafolios-Creativos
+ReviewLab es una solución tecnológica diseñada para abordar la falta de retroalimentación estructurada en las plataformas de contenido visual actuales. Este sistema permite a los creadores gestionar portafolios digitales, recibir evaluaciones basadas en criterios objetivos y colaborar mediante propuestas de mejora técnica y versiones alternativas.
+
+Características Principales
+Para Creadores de Contenido
+Gestión de Portafolio: Permite crear, editar, visualizar y eliminar proyectos digitales de forma centralizada.
+Contenido Multimedia: Soporte para la inclusión de imágenes y descripciones detalladas mediante la integración con Cloudinary.
+Seguimiento de Evolución: Acceso a un historial de versiones que permite rastrear la mejora continua de cada trabajo.
+Para Evaluadores y Colaboradores
+Retroalimentación Estructurada: Sistema de evaluación con criterios predefinidos que supera los comentarios superficiales.
+Calificaciones y Comentarios: Posibilidad de asignar puntajes y añadir observaciones obligatorias para una crítica constructiva.
+Propuestas de Mejora: Funcionalidad para sugerir cambios directos y generar versiones alternativas de proyectos existentes.
+Stack Tecnológico
+El proyecto se basa en una arquitectura de tipo cliente-servidor para garantizar escalabilidad y seguridad:
+
+Capa / Área	Tecnología	Propósito
+Frontend	React	Construcción de la interfaz de usuario reactiva.
+Backend	Node.js + Express	Gestión de lógica de negocio y API REST.
+Base de Datos	PostgreSQL	Almacenamiento relacional de datos.
+Autenticación	JWT	Control de acceso seguro mediante tokens.
+Multimedia	Cloudinary	Optimización y gestión de imágenes en la nube.
+Despliegue	Vercel / Render	Publicación continua del cliente y servidor.
+Arquitectura del Sistema
+La solución emplea una arquitectura dividida en tres capas principales:
+
+Frontend (Capa de Presentación): Desarrollada en React, gestiona la interacción del usuario, los componentes y el estado global.
+Backend (Capa de Lógica): Basada en Node.js, expone una API REST para procesar solicitudes y validar seguridad vía JWT.
+Persistencia (Capa de Datos): PostgreSQL almacena de forma estructurada los usuarios, proyectos, evaluaciones y propuestas.
+Metodología de Desarrollo
+Se aplicó el marco de trabajo ágil Scrum, organizando el desarrollo en ciclos de valor de dos semanas denominados Sprints:
+
+Roles: El equipo cuenta con Product Owner, Scrum Master y un equipo de desarrollo técnico.
+Ciclo de Vida: El proyecto se estructuró en 6 Sprints que abarcan desde el análisis hasta el despliegue final.
+Herramientas de Gestión:
+Jira: Seguimiento de tareas y tablero Scrum.
+GitHub: Control de versiones y colaboración de código.
+Figma: Prototipado y diseño de interfaz de usuario.
+Equipo de Trabajo
+Este proyecto fue desarrollado como parte del programa de Ingeniería de Software en la Corporación Universitaria Iberoamericana:
+
+Santiago Duque Mora
+Yonathan Esleider Cuenu Mancilla
+Carolina Franco Horta
+Jhorman Leyner Tique Ojeda
+Docente: Tatiana Lizbeth Cabrera Vargas.
+
+Este proyecto tiene fines académicos y profesionales, orientado a fortalecer el aprendizaje colaborativo en el sector creativo digital.
